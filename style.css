@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
     background-color: #F4CE14;
+    
 }
 
 h1{
     text-align: center;
+    font-family: "Nunito", sans-serif;
 }
 
 .main{
@@ -39,6 +41,14 @@ h1{
     border: none;
     box-shadow: 10px 10px 20px #b49600;
     cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    
+}
+
+#btn:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in-out .5s;
 }
 
 #copybtn{
